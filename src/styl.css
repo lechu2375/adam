@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Roboto";
+    box-sizing: border-box;
+}
+
+aside{
+    background-color: #2E5077;
+}
+section{
+    background-color: #4DA1A9;
+}
+footer{
+    background-color: #611C35;
+}
