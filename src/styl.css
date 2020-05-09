@@ -30,6 +30,9 @@ footer{
 }
 .menu:hover{
     background-color: aquamarine;
+    transition-duration: 1s;
+    transition-property: all;
+    width:150%;
 }
 
 #mainFrame{
@@ -42,8 +45,9 @@ footer{
     text-align: center;
 }
 
-#menu{
+#menuHolder{
     display: grid;
     grid-template-columns: 1fr;
 }
+
 
