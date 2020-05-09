@@ -16,6 +16,7 @@ aside{
     background-color: #2E5077;
     display: grid;
     grid-template-columns: 1fr;
+    padding-right: 0;
 }
 
 section{
@@ -24,14 +25,16 @@ section{
 footer{
     background-color: #611C35;
 }
-
+.category{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-style: italic;
+}
 .menu{
-    background-color: #4DA1A9;
-    transition: 0.7s all;
+    transition: 0.8s all;
 }
 .menu:hover{
     background-color: aquamarine;
-    width:105%;
     transition: 0.7s all;
 }
 
