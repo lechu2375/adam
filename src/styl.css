@@ -30,9 +30,13 @@ footer{
     grid-template-columns: 1fr 5fr;
     grid-auto-rows: minmax(100px,auto);
 }
-
 #logo{
     font-family: 'Roboto Mono', monospace;
     text-align: center;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
