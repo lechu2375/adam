@@ -27,12 +27,12 @@ footer{
 
 .menu{
     background-color: #4DA1A9;
+    transition: 0.7s all;
 }
 .menu:hover{
     background-color: aquamarine;
-    transition-duration: 1s;
-    transition-property: all;
-    width:150%;
+    width:105%;
+    transition: 0.7s all;
 }
 
 #mainFrame{
