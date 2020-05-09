@@ -17,10 +17,12 @@ aside{
     display: grid;
     grid-template-columns: 1fr;
     padding-right: 0;
+    height: 2000px;
 }
 
 section{
     background-color: #4DA1A9;
+   
 }
 footer{
     background-color: #611C35;
@@ -34,12 +36,12 @@ footer{
     font-style: italic;
 }
 .menu{
-    transition: 0.8s all;
+    transition: 2s background-color;
     margin: 1px;
 }
 .menu:hover{
     background-color: aquamarine;
-    transition: 0.7s all;
+    transition: 0.7s background-color;
 }
 
 #mainFrame{
@@ -55,6 +57,7 @@ footer{
 #menuHolder{
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
 
 
