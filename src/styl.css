@@ -35,6 +35,7 @@ footer{
 }
 .menu{
     transition: 0.8s all;
+    margin: 1px;
 }
 .menu:hover{
     background-color: aquamarine;
