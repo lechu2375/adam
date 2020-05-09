@@ -3,6 +3,8 @@
     margin: 0;
     
     box-sizing: border-box;
+    
+
 }
 
 body {
@@ -15,13 +17,17 @@ section,aside{
 aside{
     background-color: #2E5077;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
+    
     padding-right: 0;
-    height: 2000px;
+    overflow: hidden;
+    justify-items: left;  
+    align-items: baseline;
 }
 
 section{
     background-color: #4DA1A9;
+   
    
 }
 footer{
@@ -32,12 +38,13 @@ footer{
 }
 .category{
     font-family: 'Roboto Mono', monospace;
-    font-weight: 600;
+    font-weight: 500;
     font-style: italic;
 }
 .menu{
     transition: 2s background-color;
-    margin: 1px;
+    
+   
 }
 .menu:hover{
     background-color: aquamarine;
@@ -52,12 +59,13 @@ footer{
 #logo{
     font-family: 'Roboto Mono', monospace;
     text-align: center;
+    max-height: 100px;  
 }
 
 #menuHolder{
+    
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
 }
 
 
