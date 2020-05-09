@@ -25,6 +25,13 @@ footer{
     background-color: #611C35;
 }
 
+.menu{
+    background-color: #4DA1A9;
+}
+.menu:hover{
+    background-color: aquamarine;
+}
+
 #mainFrame{
     display: grid;
     grid-template-columns: 1fr 5fr;
