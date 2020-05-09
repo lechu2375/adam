@@ -23,11 +23,13 @@ aside{
     overflow: hidden;
     justify-items: left;  
     align-items: baseline;
+    grid-row-gap:0;
+    grid-column-gap:0;
 }
 
 section{
     background-color: #4DA1A9;
-   
+    height: 2000px;
    
 }
 footer{
