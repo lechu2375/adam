@@ -8,7 +8,7 @@
 body {
     font-family:"Roboto";
 }
-section,aside,footer{
+section,aside{
     padding: 1em;
 }
 
@@ -25,6 +25,8 @@ section{
 footer{
     background-color: #611C35;
     grid-column: 1/3;
+    padding: 2em;
+    text-align: center;
 }
 .category{
     font-family: 'Roboto Mono', monospace;
@@ -42,7 +44,7 @@ footer{
 #mainFrame{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-auto-rows: minmax(100px,auto);
+    grid-auto-rows: minmax(50px,auto);
 }
 #logo{
     font-family: 'Roboto Mono', monospace;
