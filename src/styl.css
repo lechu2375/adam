@@ -29,8 +29,6 @@ aside{
 
 section{
     background-color: #4DA1A9;
-    height: 2000px;
-   
 }
 footer{
     background-color: #611C35;
@@ -39,16 +37,19 @@ footer{
     text-align: center;
 }
 .category{
+    margin:10px 0 0 0;
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
     font-style: italic;
 }
 .menu{
+    
     transition: 2s background-color;
     
    
 }
 .menu:hover{
+    text-decoration: none;
     background-color: aquamarine;
     transition: 0.7s background-color;
 }
@@ -59,13 +60,17 @@ footer{
     grid-auto-rows: minmax(50px,auto);
 }
 #logo{
-    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
     text-align: center;
+    font-size: xx-large;
     max-height: 100px;  
 }
 
 #menuHolder{
-    
+    margin: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr;
 }
