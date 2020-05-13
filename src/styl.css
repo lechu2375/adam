@@ -69,6 +69,12 @@ footer{
     font-size: xx-large;
     max-height: 100px;  
 }
+#logo a{
+    color: black;
+}
+#logo a:hover{
+    text-decoration:none;
+}
 
 #menuHolder{
     margin: 0;
