@@ -29,7 +29,9 @@ aside{
 
 section{
     background-color: #4DA1A9;
+    font-size: 15px;
 }
+
 footer{
     background-color: #611C35;
     grid-column: 1/3;
@@ -74,5 +76,6 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
 }
+
 
 
