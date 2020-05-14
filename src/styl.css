@@ -7,9 +7,6 @@
 
 }
 
-body {
-    font-family:"Roboto";
-}
 section,aside{
     padding: 1em;
 }
@@ -31,6 +28,7 @@ section{
     background-color: #4DA1A9;
     font-size: 15px;
 }
+
 
 footer{
     background-color: #611C35;
