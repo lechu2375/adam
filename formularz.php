@@ -59,11 +59,12 @@
                         // Check connection
                         if ($conn) {
                             $status = "Połączono";
+                            echo "<span class='badge badge-success'>Połączono z bazą danych!</span>";
                         }
                         else{
                             exit("Brak połączenia z bazą danych.");
                         }
-                        echo "Status połączenia:".$status;
+                        
                         if (isset($_POST["imie"])){
 
                             echo "<br>Przesłane dane:";
