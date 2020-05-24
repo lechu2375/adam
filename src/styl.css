@@ -12,7 +12,7 @@ section,aside{
 }
 
 aside{
-    background-color: #2E5077;
+    background-color: #043565;
     display: grid;
     grid-template-columns: 2fr;
     
@@ -41,7 +41,7 @@ footer{
     margin:10px 0;
     margin-bottom: 15px;
     font-family: 'Roboto Mono', monospace;
-    font-weight: 500;
+    font-weight: 550;
     
 }
 .menu{
@@ -52,7 +52,9 @@ footer{
 }
 .menu:hover{
     text-decoration: none;
-    background-color: aquamarine;
+    background-color: #4DA1A9;
+    color: black;
+    font-weight:500;
     transition: 0.7s background-color;
 }
 
