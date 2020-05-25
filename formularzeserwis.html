@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Strona Adama Lecha</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link rel="icon" href="src/favicon.ico">
+        <link rel="stylesheet" href="src/styl.css">
+    </head>
+
+    <body>
+        <div id="mainFrame">
+            <aside>
+                <div id="menuHolder">
+                    <div id ="logo">
+                        <a href="index.html">Praktyka zawodowa</a>
+                    </div>
+                    <p class="category">Tydzień pierwszy</p>
+                        <a class="menu" href="przepisy.html">1.Przepisy BHP</a>
+                        <a class="menu" href="sysop.html">2.Instalacja systemu operacyjnego</a>
+                        <a class="menu" href="pakiet.html">3.Instalacja oprogramowania biurowego</a>
+                        <a class="menu" href="doc.html">4.Dokumentacja techniczna</a>
+                        <a class="menu" href="peryf.html">5.Podłączanie urządzeń peryferyjnych do komputera</a>
+                    <p class="category">Tydzień drugi</p>
+                        <a class="menu" href="skrecanie.html">6.Montaż komputera z części komputerowych</a>
+                        <a class="menu" href="diag.html">7.Testowanie i diagnozowanie sprzętu komputerowego</a>
+                        <a class="menu" href="#">8.Podłączanie drukarki do komputera</a>
+                        <a class="menu" href="#">9.Sieć LAN w firmie</a>
+                        <a class="menu" href="#">10.Korzystanie z zasobów sieci Internet</a>
+                    <p class="category">Tydzień trzeci</p>
+                        <a class="menu" href="#">11.Projektowanie relacyjnej bazy danych</a>
+                        <a class="menu" href="#">12.Tworzenie tabel przechowujących dane</a>
+                        <a class="menu" href="#">13.Budowa formularzy dodających dane do bazy</a>
+                        <a class="menu" href="#">14.Kwerendy wybierające dane z bazy danych</a>
+                        <a class="menu" href="#">15.Raporty w bazie danych</a>
+                    <p class="category">Tydzień czwarty</p>
+                        <a class="menu" href="#">16.Tworzenie serwisu internetowego na potrzeby firmy</a>
+                        <a class="menu" href="#">17.Wykorzystanie bloków przy tworzeniu serwisu</a>
+                        <a class="menu" href="#">18.Wykorzystanie menu w serwisie internetowym</a>
+                        <a class="menu" href="#">19.Tworzenie galerii na potrzeby serwisu</a>
+                        <a class="menu" href="#">20.Tworzenie formularzy w serwisie internetowym</a>
+                </div>
+                
+            </aside>
+            <section>
+                <div class="jumbotron">
+                    <h1 class="display-4">Formularze</h1>
+                    <hr class="my-4">
+                    <p>Dzięki formularzom, które są umieszczane bezpośrednio na stronie WWW, możesz uzyskać wiele informacji o użytkownikach odwiedzających Twój serwis. Służą one również do zamawiania różnych towarów w sklepach internetowych, chociaż wtedy należy dodatkowo zadbać o bezpieczeństwo przesyłanych danych. Prosty formularz pocztowy przedstawiony w tym rozdziale, na pewno nie jest odpowiedni do przesyłania np. numerów kart kredytowych, ważnych haseł dostępu czy innych poufnych danych! Bezpieczestwo można uzyskać przy pomocy skryptów wykonywanych po stronie serwera oraz protokołu SSL.</p>
+                    <p>Formularz ma formę elektronicznej ankiety, którą wypełnia się wprost na stronie. Możliwe jest przy tym wpisywanie tekstu, odpowiadanie na zadane pytania, czy zaznaczanie jednej bądź kilku z podanych możliwości wyboru. Taki formularz może być przesłany pocztą elektroniczną e-mail (prosty formularz pocztowy) i odebrany przez adresata. Istnieje wiele programów wspomagających odbieranie formularzy i grupowe wysyłanie listów na ich podstawie, przez co czynność ta może stać się mniej żmudna. Są to zarówno aplikacje w postaci programów instalowanych tradycyjnie, jak i specjalne skrypty wykonywane bezpośrednio w przeglądarce (np. PHP).</p>
+                    Bootstrap oferuje domyślnie style dla każdego elementu z formularza.
+                    <code>
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlSelect1">Example select</label>
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlSelect2">Example multiple select</label>
+                              <select multiple class="form-control" id="exampleFormControlSelect2">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Example textarea</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                          </form>
+                    </code>
+                    <h3>Trochę bardziej skomplikowany przykład:</h3>
+                    <code>
+                        <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputAddress">Address</label>
+                              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            </div>
+                            <div class="form-group">
+                              <label for="inputAddress2">Address 2</label>
+                              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                            </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                              </div>
+                              <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                  <option selected>Choose...</option>
+                                  <option>...</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                  Check me out
+                                </label>
+                              </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                          </form>
+                    </code>
+                    Praktyczne użycie formularzy można znaleźć na podstronie 14.
+                    <a href="formularz.php">Link</a>
+            
+                </div>
+
+
+
+            </section>
+            
+            <footer>
+                <p>strone zrobil adam lech</p>
+            </footer>
+
+        </div>
+    </body>
+
+
+
+</html>
