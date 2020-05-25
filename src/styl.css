@@ -1,10 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    
     box-sizing: border-box;
-    
-
 }
 
 section,aside{
@@ -15,7 +12,6 @@ aside{
     background-color: #043565;
     display: grid;
     grid-template-columns: 2fr;
-    
     padding-right: 0;
     overflow: hidden;
     justify-items: left;  
@@ -41,15 +37,12 @@ footer{
     margin:10px 0;
     margin-bottom: 15px;
     font-family: 'Roboto Mono', monospace;
-    font-weight: 550;
-    
-    
+    font-weight: 500;
+    font-size: 20px;
 }
 .menu{
-    
     transition: 2s background-color;
     font-size: large;
-   
 }
 .menu:hover{
     text-decoration: none;
@@ -70,6 +63,7 @@ footer{
     font-family: 'Anton', sans-serif;
     text-align: center;
     font-size: xx-large;
+    font-weight:bolder;
     max-height: 100px;  
 }
 #logo a{
@@ -84,7 +78,6 @@ footer{
     padding: 0;
     display: grid;
     grid-template-columns: 1fr;
-    
 }
 
 
