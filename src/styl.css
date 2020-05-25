@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-section,aside{
+section:not(#banner),aside{
     padding: 1em;
 }
+
+
 
 aside{
     background-color: #043565;
@@ -56,6 +58,16 @@ footer p{
     color: black;
     font-weight:500;
     transition: 0.7s background-color;
+}
+#banner{
+
+    height: 30%;
+    margin: -1em;
+    background-image: url("https://www.isin.net/wp-content/uploads/2019/01/iStock-913071832.jpg");
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #mainFrame{
