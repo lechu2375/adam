@@ -47,6 +47,7 @@ footer p{
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
     font-size: 20px;
+    color: black;
 }
 .menu{
     transition: 2s background-color;
@@ -85,7 +86,7 @@ background-attachment: fixed;
     max-height: 100px;  
 }
 #logo a{
-    color: #011627;
+    color: black;
 }
 #logo a:hover{
     text-decoration:none;
