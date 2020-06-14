@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section:not(#banner),aside{
+    padding: 1em;
+}
+
+
+
+aside{
+    background-color: #043565;
+    display: grid;
+    grid-template-columns: 2fr;
+    padding-right: 0;
+    overflow: hidden;
+    justify-items: left;  
+    align-items: baseline;
+    grid-row-gap:0;
+    grid-column-gap:0;
+}
+
+section{
+    background-color: #4DA1A9;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+footer{
+    background-color: #611C35;
+    grid-column: 1/5;
+    max-height: 100px;
+    padding: 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+    
+}
+footer p{
+    margin: 0;
+}
+.category{
+    margin:10px 0;
+    margin-bottom: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+}
+.menu{
+    transition: 2s background-color;
+    font-size: xx-large;
+}
+.menu:hover{
+    text-decoration: none;
+    background-color: #4DA1A9;
+    color: black;
+    font-weight:500;
+    transition: 0.7s background-color;
+}
+
+#banner2{
+
+    height: 30%;
+    margin: -1em;
+background-image: url("https://steamuserimages-a.akamaihd.net/ugc/704036239874741168/36D7F175B828B8D9770F585E53F494B705DD1FB3/");
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainFrame{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-auto-rows: minmax(50px,auto);
+    min-height: 50em;
+}
+#logo{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bolder;
+    max-height: 100px;  
+}
+#logo a{
+    color: black;
+}
+#logo a:hover{
+    text-decoration:none;
+}
+
+#menuHolder{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
